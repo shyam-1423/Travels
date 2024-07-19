@@ -1,0 +1,1089 @@
+@media (min-width: 0px) and (max-width: 320px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        animation: none;
+    }
+    body{
+        overflow-x: hidden;
+        animation: none;
+    }
+    header{
+        height: 80px;
+        width: 100%;
+        padding: 20px;
+    }
+    .logo{
+        width: 100%;
+        height: 60px;
+        font-size: 24px;
+    }
+    .logo a{
+        width: 100%;
+        height: 60px;
+        font-size: 24px;
+    }
+    li a {
+        text-decoration: none;
+        font-size: 19px;
+    }
+    nav {
+        display: none;
+    }
+
+    .bar {
+        width: 100%;
+        display: block;
+    }
+
+    li {
+        padding: 10px;
+        display: block;
+    }
+    .main1{
+        height: 50vh;
+        width: 100%;
+        background-size: 100% 100%;
+        background-position: center;
+        animation: none;
+    }
+    .Head1{
+        height: 180px;
+        font-size: 23px;
+        padding-top: 25px;
+        padding-left: 8px;
+        font-weight: 300;
+    }
+    .prg1{
+        height: 145px;
+        width: 90%;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .btn1{
+        height: 40px;
+        width: 150px;
+        font-size: 16px;
+    }
+    .main2{
+        height: 420vh;
+        width: 100%;
+    }
+    .Head2{
+        height: 150px;
+        width: 100%;
+        font-size: 16px;
+        padding-top: 30px;
+        padding-left: 10%;
+    }
+    .prg2{
+        font-size: 16px;
+        margin: 10px -15px 15px;
+    }
+    .image,.image1{
+        width: 100%;
+        height: 200vh;
+        gap: 10px;
+    }
+    .img1,.img2{
+        height: 360px;
+        width: 95%;
+    }
+    .prg3{
+        height: 50px;
+        width: 80%;
+        margin: 2px 2px 0 25px;
+        font-size: 18px;
+    }
+    .prg3 a{
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .Main3{
+        height: 110vh;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+    .container1{
+        width: 100%;
+        height: 90vh;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .Head3{
+        width: 100%;
+        font-size: 20px;
+    }
+    .text1{
+        height: 100px;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .t1{
+        height: 50px;
+        width: 100%;
+    }
+    .t1 a{
+        font-size: 19px;
+    }
+    .container2{
+        width: 100%;
+        height: 50vh;
+        margin-left: 10px;
+        margin-right:0px;
+        margin-top: -1800px;
+    }
+    .prg4{
+        height: 80px;
+        width: 100%;
+        font-size: 22px;
+        margin-top: 20px;
+        color: #64666b;
+    }
+    .controls{
+        height: 150px;
+        width: 100%;
+    }
+    .controls .email input{
+        height: 40px;
+        width: 300px;
+    }
+    .btn2 input{
+        height: 40px;
+        width:300px;
+    }
+    .icons{
+        margin-top: -5px;
+    }
+    .icons a{
+        margin: 8px;
+        font-size: 20px;
+    }
+    .container4{
+        width: 100%;
+        height: 100vh;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .text2{
+        height: 100px;
+        width: 100%;
+        margin-top: -500px;
+        margin-left: 10PX;  
+    }
+    .t2 a{
+        font-size: 19px;
+    }
+}
+/* Mobile Screen */
+@media (min-width: 320px) and (max-width: 468px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        height: 90px;
+        width: 100%;
+        padding: 20px;
+    }
+    .logo{
+        width: 100%;
+        height: 60px;
+        font-size: 24px;
+    }
+    .logo a{
+        width: 100%;
+        height: 80px;
+        font-size: 24px;
+    }
+    li a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    nav {
+        display: none;
+    }
+    .bar {
+        width: 100%;
+        display: block;
+    }
+    li {
+        padding: 10px;
+        display: block;
+    }
+    .main1{
+        height: 50vh;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .Head1{
+        height: 180px;
+        font-size: 22px;
+        padding-top: 18px;
+        padding-left: 15px;
+        font-weight: 300;
+    }
+    .prg1{
+        height: 150px;
+        width: 80%;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .btn1{
+        height: 55px;
+        width: 150px;
+        font-size: 16px;
+        margin-top: 10PX;
+    }
+    .main2{
+        height: 420vh;
+        width: 100%;
+    }
+    .Head2{
+        height: 150px;
+        width: 100%;
+        font-size: 17px;
+        padding-top: 30px;
+        padding-left: 20%;
+    }
+    .prg2{
+        width: 100%;
+        font-size: 16px;
+        margin: 20px -15px 15px;
+    }
+    .image,.image1{
+        width: 100%;
+        height: 200vh;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .img1,.img2{
+        height: 400px;
+        width: 95%;
+    }
+    .prg3{
+        height: 50px;
+        width: 85%;
+        margin: 2px 2px 0 25px;
+        font-size: 19px;
+    }
+    .Main3{
+        height: 100vh;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        height: 70vh;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .container1{
+        width: 100%;
+        height: 85vh;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .Head3{
+        width: 100%;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .text1{
+        height: 100px;
+        width: 100%;
+        margin-top: 2px;
+    }
+    .t1{
+        height: 35px;
+        width: 100%;
+    }
+    .t1 a{
+        font-size: 19px;
+    }
+    .container2{
+        width: 100%;
+        height: 40vh;
+        margin-left: 0px;
+        margin-right:0px;
+        margin-top: -1900px;
+    }
+    .prg4{
+        height: 40px;
+        width: 100%;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .controls{
+        height: 100px;
+        width: 100%;
+        display: block;
+    }
+    .controls .email input{
+        height: 40px;
+        width: 300px;
+    }
+    .btn2 input{
+        height: 40px;
+        width:280px;
+        margin-top: 10px;
+    }
+    .icons{
+        margin-top: 20px;
+    }
+    .icons a{
+        margin: 8px;
+        font-size: 22px;
+    }
+    .container4{
+        width: 100%;
+        height: 100vh;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .text2{
+        height: 35px;
+        width: 95%;
+        margin-top: -500px;
+        margin-left: 10px;  
+    }
+    .t2{
+        height: 35px;
+        width: 95%;
+    }
+    .t2 a{
+        height: 35px;
+        font-size: 19px;
+    }
+    .main4{
+        height: 80vh;
+        width: 100%;
+        background-size:100% 100%;
+    }
+    .container3{
+        height: 300px;
+        width: 100%;
+    }
+    .Head4{
+        height: 50px;
+        width: 90%;
+        font-size: 28px;
+    }
+    .prg5{
+        height: 100px;
+        width: 90%;
+        font-size: 18px;
+    }
+    .btn3 input[type="submit"]{
+        height: 50px;
+        width: 120px;
+        margin-top: 12px;
+        font-size: 15px;
+    }
+    .main5{
+        height: 170vh;
+        width: 100%;
+        padding-top: -800px;
+    }
+    .head5{
+        height:100px;
+        width:100%;
+        font-size: 25px;
+    }
+    .prg6{
+        font-size: 22px;
+    }   
+    .image2{
+        height: 170vh;
+        width: 95%;
+        margin-top: 100px;
+        flex-wrap: wrap;
+    }
+    .img3{
+        height: 550px;
+        width: 100%;
+    }
+    .imgs{
+        height: 550px;
+        width: 100%;
+    }
+    .img4,.img5{
+        height: 50%;
+        width:100%;
+    }
+    .img4-1{
+        height: 245px;
+        width: 100%;
+    }
+    .iconW{
+        height: 245px;
+        width: 100%;
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .iconW h1{
+        height: 50px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .prg7{
+        height: 100px;
+        width: 100%;
+        font-size: 15px;
+        padding-top: 5px;
+        margin: 0px;
+    }
+    .img5-1{
+        height: 244px;
+        width: 100%;
+    }
+    .iconL{
+        height: 244px;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .iconL h1{
+        height: 50px;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .footer1{
+        height: 50vh;
+        width: 100%;
+    }
+}
+/* Tablet Screen */
+@media (min-width: 469px) and (max-width: 768px)
+{
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            height: 80px;
+            width: 100%;
+            padding: 20px;
+        }
+        .logo{
+            width: 100%;
+            height: 60px;
+            font-size: 24px;
+        }
+        .logo a{
+            width: 100%;
+            height: 80px;
+            font-size: 24px;
+        }
+        li a {
+            text-decoration: none;
+            font-size: 20px;
+        }
+        nav {
+            display: none;
+        }
+        .bar {
+            width: 100%;
+            display: block;
+        }
+        li {
+            padding: 10px;
+            display: block;
+        }
+        .main1{
+            height: 70vh;
+            width: 100%;
+            background-size: 100% 100%;
+        }
+        .Head1{
+            height: 200px;
+            font-size: 26px;
+            padding-top: 80px;
+            padding-left: 25px;
+            font-weight: 300;
+        }
+        .prg1{
+            height: 150px;
+            width: 80%;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .btn1{
+            height: 55px;
+            width: 150px;
+            font-size: 17px;
+            margin-top: 15px;
+        }
+        .main2{
+            height: 250vh;
+            width: 100%;
+        }
+        .Head2{
+            height: 150px;
+            width: 100%;
+            font-size: 18px;
+            padding-top: 10px;
+            text-align: center;
+            padding-left: 0;
+        }
+        .Head2 h1{
+            height: 18px;
+            font-size: 22px;
+            padding-top: 30px;
+            padding-left: 0;
+        }
+        .prg2{
+            width: 100%;
+            font-size: 18px;
+            margin: 25px -15px 15px;
+        }
+        .image,.image1{
+            width: 100%;
+            height: 115vh;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .img1,.img2{
+            height: 420px;
+            width: 45%;
+        }
+        .img1 img{
+            height: 320px;
+        }
+        .img2 img{
+            height: 320px;
+        }
+        .prg3{
+            height: 50px;
+            width: 85%;
+            margin: 2px 2px 0 25px;
+            font-size: 19px;
+        }
+        .Main3{
+            height: 90vh;
+            width: 100%;
+        }
+        .container{
+            width: 100%;
+            height: 70vh;
+            text-align: center;
+            padding-top: 25px;
+        }
+        .container1{
+            width: 100%;
+            height: 85vh;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .Head3{
+            width: 100%;
+            font-size: 24px;
+            margin-top: 15px;
+        }
+        .text1{
+            height: 100px;
+            width: 100%;
+            margin-top: 2px;
+        }
+        .t1{
+            height: 35px;
+            width: 100%;
+        }
+        .t1 a{
+            font-size: 21px;
+        }
+        .container2{
+            width: 100%;
+            height: 40vh;
+            margin-left: 0px;
+            margin-right:0px;
+            margin-top: -1900px;
+        }
+        .prg4{
+            height: 40px;
+            width: 100%;
+            font-size: 22px;
+            margin-top: 10px;
+        }
+        .controls{
+            height: 100px;
+            width: 100%;
+            display: block;
+        }
+        .controls .email input{
+            height: 40px;
+            width: 300px;
+        }
+        .btn2 input{
+            height: 40px;
+            width:280px;
+            margin-top: 10px;
+        }
+        .icons{
+            margin-top: 20px;
+        }
+        .icons a{
+            margin: 8px;
+            font-size: 22px;
+        }
+        .container4{
+            width: 100%;
+            height: 100vh;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .text2{
+            height: 35px;
+            width: 95%;
+            margin-top: -500px;
+            margin-left: 10px;  
+        }
+        .t2{
+            height: 35px;
+            width: 95%;
+        }
+        .t2 a{
+            height: 35px;
+            font-size: 21px;
+        }
+        .main4{
+            height: 80vh;
+            width: 100%;
+            background-size:100% 100%;
+        }
+        .container3{
+            height: 300px;
+            width: 100%;
+        }
+        .Head4{
+            height: 50px;
+            width: 90%;
+            font-size: 28px;
+        }
+        .prg5{
+            height: 100px;
+            width: 90%;
+            font-size: 18px;
+        }
+        .btn3 input[type="submit"]{
+            height: 50px;
+            width: 120px;
+            margin-top: 12px;
+            font-size: 16px;
+        }
+        .main5{
+            height: 170vh;
+            width: 100%;
+            padding-top: -800px;
+        }
+        .head5{
+            height:100px;
+            width:100%;
+            font-size: 25px;
+        }
+        .prg6{
+            font-size: 22px;
+        }   
+        .image2{
+            height: 170vh;
+            width: 95%;
+            margin-top: 100px;
+            flex-wrap: wrap;
+        }
+        .img3{
+            height: 550px;
+            width: 100%;
+        }
+        .imgs{
+            height: 550px;
+            width: 100%;
+        }
+        .img4,.img5{
+            height: 50%;
+            width:100%;
+        }
+        .img4-1{
+            height: 245px;
+            width: 100%;
+        }
+        .iconW{
+            height: 245px;
+            width: 100%;
+            padding-top: 10px;
+            font-size: 16px;
+        }
+        .iconW h1{
+            height: 50px;
+            padding-top: 10px;
+            font-size: 22px;
+        }
+        .prg7{
+            height: 100px;
+            width: 100%;
+            font-size: 18px;
+            padding-top: 5px;
+            margin: 0px;
+        }
+        .img5-1{
+            height: 244px;
+            width: 100%;
+        }
+        .iconL{
+            height: 244px;
+            width: 100%;
+            padding-top: 10px;
+        }
+        .iconL h1{
+            height: 50px;
+            padding-top: 10px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .footer1{
+            height: 25vh;
+            width: 100%;
+        }
+        .footer1 h1,a{
+            height: 80px;
+            width: 100%;
+            font-size: 30px;
+            padding-top: 10px;
+        }
+        .icons1{
+            height: 50px;
+            margin-top: 10px;
+        }
+        .icons1 a{
+            margin: 8px;
+            font-size: 20px;
+        }
+        .prg8{
+            height: 40px;
+            width: 100%;
+            font-size: 20px;
+        }
+}
+/* Tablet Screen */
+@media (min-width: 769px) and (max-width: 1200px)
+{
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            height: 80px;
+            width: 100%;
+            padding: 20px;
+        }
+        .logo{
+            width: 100%;
+            height: 60px;
+            font-size: 24px;
+        }
+        .logo a{
+            width: 100%;
+            height: 80px;
+            font-size: 24px;
+        }
+        li a {
+            text-decoration: none;
+            font-size: 20px;
+        }
+        nav {
+            display: none;
+        }
+        .bar {
+            width: 100%;
+            display: block;
+        }
+        li {
+            padding: 10px;
+            display: block;
+        }
+        .main1{
+            height: 70vh;
+            width: 100%;
+            background-size: 100% 100%;
+        }
+        .Head1{
+            height: 200px;
+            font-size: 26px;
+            padding-top: 80px;
+            padding-left: 25px;
+            font-weight: 300;
+        }
+        .prg1{
+            height: 140px;
+            width: 50%;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .btn1{
+            height: 50px;
+            width: 150px;
+            font-size: 17px;
+            margin-top: 15px;
+        }
+        .main2{
+            height: 140vh;
+            width: 100%;
+        }
+        .Head2{
+            height: 150px;
+            width: 100%;
+            font-size: 18px;
+            padding-top: 10px;
+            text-align: center;
+            padding-left: 0;
+        }
+        .Head2 h1{
+            height: 38px;
+            font-size: 28px;
+            padding-top: 30px;
+            padding-left: 0;
+        }
+        .prg2{
+            width: 100%;
+            font-size: 22px;
+            margin: 25px -15px 15px;
+        }
+        .image,.image1{
+            width: 100%;
+            height: 55vh;
+            gap: 8px;
+            padding: 0 10PX;
+            /* flex-wrap: wrap; */
+        }
+        .img1,.img2{
+            height: 410px;
+            width: 50%;
+        }
+        .img1 img{
+            height: 300px;
+        }
+        .img2 img{
+            height: 300px;
+        }
+        .prg3{
+            height: 50px;
+            width: 85%;
+            margin: 2px 2px 0 25px;
+            font-size: 19px;
+        }
+        .Main3{
+            height: 90vh;
+            width: 100%;
+        }
+        .container{
+            width: 100%;
+            height: 70vh;
+            text-align: center;
+            padding-top: 25px;
+        }
+        .container1{
+            width: 100%;
+            height: 85vh;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .Head3{
+            width: 100%;
+            font-size: 24px;
+            margin-top: 15px;
+        }
+        .text1{
+            height: 100px;
+            width: 100%;
+            margin-top: 2px;
+        }
+        .t1{
+            height: 35px;
+            width: 100%;
+        }
+        .t1 a{
+            font-size: 21px;
+        }
+        .container2{
+            width: 100%;
+            height: 40vh;
+            margin-left: -10px;
+            margin-right:0px;
+            margin-top: -1900px;
+        }
+        .prg4{
+            height: 40px;
+            width: 100%;
+            font-size: 22px;
+            margin-top: 10px;
+        }
+        .controls{
+            height: 100px;
+            width: 100%;
+            display: block;
+        }
+        .controls .email input{
+            height: 40px;
+            width: 300px;
+        }
+        .btn2 input{
+            height: 40px;
+            width:280px;
+            margin-top: 10px;
+        }
+        .icons{
+            margin-top: 20px;
+        }
+        .icons a{
+            margin: 8px;
+            font-size: 22px;
+        }
+        .container4{
+            width: 100%;
+            height: 100vh;
+            margin-left: 80px;
+            margin-right: 0px;
+        }
+        .text2{
+            height: 35px;
+            width: 95%;
+            margin-top: -500px;
+            margin-left: 10px;  
+        }
+        .t2{
+            height: 35px;
+            width: 95%;
+        }
+        .t2 a{
+            height: 35px;
+            font-size: 21px;
+        }
+        .main4{
+            height: 80vh;
+            width: 100%;
+            background-size:100% 100%;
+        }
+        .container3{
+            height: 300px;
+            width: 100%;
+        }
+        .Head4{
+            height: 50px;
+            width: 90%;
+            font-size: 28px;
+        }
+        .prg5{
+            height: 100px;
+            width: 90%;
+            font-size: 18px;
+        }
+        .btn3 input[type="submit"]{
+            height: 50px;
+            width: 120px;
+            margin-top: 12px;
+            font-size: 16px;
+        }
+        .main5{
+            height: 170vh;
+            width: 100%;
+            padding-top: -800px;
+        }
+        .head5{
+            height:100px;
+            width:100%;
+            font-size: 30px;
+            text-align: center;
+        }
+        .prg6{
+            width:90%;
+            font-size: 27px;
+            padding-left: 80px;
+        }   
+        .image2{
+            height: 170vh;
+            width: 95%;
+            margin-top: 100px;
+            flex-wrap: wrap;
+        }
+        .img3{
+            height: 550px;
+            width: 100%;
+        }
+        .imgs{
+            height: 550px;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .img4,.img5{
+            height: 52%;
+            width:100%;
+        }
+        .img4-1{
+            height: 275px;
+            width: 100%;
+        }
+        .iconW{
+            height: 275px;
+            width: 100%;
+            padding-top: 10px;
+            font-size: 16px;
+        }
+        .iconW h1{
+            height: 50px;
+            padding-top: 15px;
+            font-size: 24px;
+        }
+        .prg7{
+            height: 100px;
+            width: 100%;
+            font-size: 22px;
+            padding-top: 5px;
+            margin: 0px;
+        }
+        .img5-1{
+            height: 270px;
+            width: 100%;
+        }
+        .iconL{
+            height: 270px;
+            width: 100%;
+            padding-top: 15px;
+        }
+        .iconL h1{
+            height: 50px;
+            padding-top: 15px;
+            text-align: center;
+            font-size: 22px;
+        }
+        .footer1{
+            height: 25vh;
+            width: 100%;
+        }
+        .footer1 h1,a{
+            height: 80px;
+            width: 100%;
+            font-size: 30px;
+            padding-top: 10px;
+        }
+        .icons1{
+            height: 50px;
+            margin-top: 10px;
+        }
+        .icons1 a{
+            margin: 8px;
+            font-size: 20px;
+        }
+        .prg8{
+            height: 40px;
+            width: 100%;
+            font-size: 20px;
+        }
+}

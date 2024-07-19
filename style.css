@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    z-index: 10000;
+    box-shadow: 4px 92px 131px -16px #00000080;
+}
+.logo{
+    width: 20%;
+    height: 80px;
+    font-size: 40px;
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 600;
+    
+}
+.logo a{
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+}
+.NavBar{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    list-style: none;
+}
+li {
+    padding: 50px;
+    display: inline;
+}
+li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: 100%;
+    color: white;
+}
+li a:hover{
+    color: #769ff7;
+}
+.bar {
+            width: 10%;
+            font-size: 20px;
+            color: red;
+            text-align: end;
+            display: none;
+        }
+.main1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Image/Travel1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.Head1{
+    height: 500px;
+    width: 100%;
+    font-size: 45px;
+    color: white;
+    padding-top: 200px;
+    padding-left: 180px;
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 600;
+    animation: text1 ease-out 2s forwards;
+}
+@keyframes text1 {
+    0%{
+        opacity: 0;
+        transform: translateY(-25px);
+        transform: translateX(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+        transform: translateX(0);
+    }
+}
+.prg1{
+    height: 145px;
+    width: 40%;
+    font-size: 28px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 15px;
+}
+.btn1{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    background-image: linear-gradient(to top, #156df1 0%, #337ef8 100%);
+    border-top-left-radius: 80px;
+    border-top-right-radius: 89px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 80px;
+    box-shadow: 14px 17px 32px -3px rgba(0,0,0,0.75);
+    color: white;
+}
+.btn1:hover{
+    border: 2px solid rgb(0, 0, 0);
+    background-image: linear-gradient(to top, #073a86 0%, #0a66fa 100%);
+}
+.main2{
+    height: 140vh;
+    width: 100%;
+    background-color: #cfe8f7;
+}
+.Head2{
+    height: 300px;
+    width: 100%;
+    font-size: 25px;
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 600;
+    color: rgb(0, 117, 252);
+    padding-top: 100px;
+    padding-left: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: text2 ease-out 1.5s forwards;
+}
+@keyframes text2 {
+    0%{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.prg2{
+    font-style: italic;
+    font-size: 20px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    margin: 20px -30px 25px;
+    color: #444549;
+}
+.image{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    z-index: 1000;
+    animation: right 1.8s ease-out forwards;
+}
+@keyframes right {
+    0%{
+        opacity: 0.50;
+        transform: translateY(-25px);
+        transform: translateX(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+        transform: translateX(0);
+    }
+}
+.image1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    z-index: 1000;
+    animation: left 1.8s ease-out forwards;
+}
+@keyframes left {
+    0%{
+        opacity: 0.50;
+        transform: translateY(25px);
+        transform: translateX(30px);
+    }
+    100%{
+        opacity: 1.5;
+        transform: translateY(0);
+        transform: translateX(0);
+    }
+}
+.img1,.img2{
+    height: 380px;
+    width: 20%;
+    border: 2px solid rgb(173, 173, 173);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    z-index: 1000;
+    box-shadow: 4px 18px 103px -27px rgba(0,0,0,0.5);
+    transition: translate 1.8s ease-in-out;
+    transition-delay: 0.5ms;
+}
+.img1:hover{
+    border:2px solid #0a66fa ;
+    transform: translateY(15px);
+}
+.img1 img {
+    height: 280px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 2px;
+    box-shadow: 3px 29px 31px -17px rgba(0,0,0,0.5); 
+}
+.img2 img{
+    height: 280px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 2px;
+    box-shadow: 3px 29px 31px -17px rgba(0,0,0,0.5);
+}
+.img2:hover{
+    border:2px solid #0a66fa ;
+    transform: translateY(-15px);
+}
+.img1 img:hover{
+    transform: scale(1.009);
+}
+.img2 img:hover{
+    transform: scale(1.009);
+}
+.loc{
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+}
+span i{
+    /* padding-top: 30px; */
+    margin:-29px auto 20px 20px;;
+    font-size: 100px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 25%;
+}
+.prg3{
+    height: 50px;
+    width: 80%;
+    margin: 2px 2px 0 50px;
+    font-size: 22px;
+}
+.prg3 a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #444549;
+}
+.prg3 a:hover{
+    color: #0967f5;
+    transform: scale(1.02);
+}
+.Main3{
+    height: 50vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+.container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    width: 25%;
+    height: 35vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    animation: cnt1 1.1s ease-out forwards;
+}
+@keyframes cnt1 {
+    0%{
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.Head3{
+    width: 80%;
+    font-size: 28px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.text1{
+    height: 200px;
+    width: 100%;
+    margin-top: 25px;
+}
+.t1{
+    height: 50px;
+    width: 80%;
+}
+.t1 a{
+    height: 10px;
+    font-size: 24px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    color: #145eff;
+}
+.t1 a:hover{
+    color: #1100ff;
+}
+.container2{
+    width: 25%;
+    height: 35vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    animation: cnt2 ease-out 1.1s forwards;
+}
+@keyframes cnt2 {
+    0%{
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.container4{
+    width: 25%;
+    height: 35vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    animation: cnt4 1.1s ease-out forwards;
+}
+.text2{
+    height: 200px;
+    width: 100%;
+    margin-top: 78px;  
+}
+@keyframes cnt4 {
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.t2{
+    height: 50px;
+    width: 100%;
+}
+.t2 a{
+    height: 50px;
+    font-size: 24px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    color: #145eff;
+}
+.t2 a:hover{
+    color: #1100ff;
+    transform: translateY(10px);
+}
+.prg4{
+    height: 80px;
+    width: 100%;
+    font-size: 22px;
+    margin-top: 20px;
+    color: #64666b;
+}
+.controls{
+    height: 200px;
+    width: 200%;
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    gap: 5px;
+}
+.controls .email input{
+    height: 40px;
+    max-width: 100%;
+    border: none;
+    background-color: #a5a5a5;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 12px 32px -13px rgba(0,0,0,1);
+}
+input::placeholder{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.controls .email input:hover{
+    transform: translateY(5px);
+}
+.btn2 input{
+    height: 40px;
+    width:100PX;
+    background-color: #2d7eff;
+    color: white;
+    border: none;
+    box-shadow: 2px 12px 32px -13px rgba(0,0,0,1);
+}
+.btn2 input:hover{
+    background-color: #0967f5;
+    transform: translateY(5px);
+}
+.icons{
+    margin-top: -105px;
+}
+.icons a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #19191a;
+}
+.icons i{
+    box-shadow: 5px 15px 10px 0px #000000bf;
+}
+.icons a:hover{
+    color: #0967f5;
+}
+.icons a i:hover{
+    filter: drop-shadow(5px 3px 2px black);
+}
+.main4{
+    height: 70vh;
+    width: 100%;
+    background-image: url(Image/Beach3.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position-y: bottom;
+    box-shadow: 0px -3px 7px 0px rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container3{
+    height: 350px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: text4 ease-out 1s forwards;
+}
+@keyframes text4 {
+    0%{
+        opacity: 0;
+        /* transform: translateY(25px); */
+        transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        /* transform: translateY(0); */
+        transform: translateX(0);
+    }
+}
+.Head4{
+    height: 50px;
+    width: 80%;
+    font-size: 32px;
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 600;
+    color: white;
+    text-align: end;
+}
+.Head4:hover{
+    color: #0967f5;
+}
+.prg5{
+    height: 150px;
+    width: 80%;
+    font-size: 18px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    text-align: end;
+}
+.prg5:hover{
+    color: #0967f5;
+}
+.btn3 input[type="submit"]{
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    background-color:transparent;
+    font-size: 15px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    color: white;
+    border: 2px solid black;
+}
+.btn3 input[type="submit"]:hover{
+    border: 2px solid #0a66fa;
+    background-color: #0a66fa;
+}
+.main5{
+    height: 100vh;
+    width: 100%;
+    background-color: #cfe8f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.head5{
+    height:100px;
+    width:100%;
+    font-size: 32px;
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 15px;
+    animation: text2 ease-out 1.5s forwards;
+}
+.prg6{
+    font-size: 25px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    animation: text2 ease-out 1.5s forwards;
+}
+.image2{
+    height: 550px;
+    width: 60%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    gap: 10px;
+    animation: cnt1 1.1s ease-out forwards;
+}
+.img3{
+    height: 550px;
+    width: 50%;
+    background-image: url(Image/Pavagadh_hill.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgs{
+    height: 550px;
+    width: 50%;
+    animation: cnt4 1.1s ease-out forwards;
+}
+.img4,.img5{
+    height: 50%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.img4-1{
+    height: 265px;
+    width: 50%;
+    background-image: url(Image/beach-near-hotel-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: cnt4 1.1s ease-out forwards;
+}
+.iconW{
+    height: 265px;
+    width: 50%;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #fff;
+    animation: cnt4 1.1s ease-out forwards;
+}
+.iconW h1{
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.prg7{
+    height: 40px;
+    font-size: 18px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 5px;
+    margin: 10px;
+}
+.img5-1{
+    height: 274px;
+    width: 50%;
+    background-image: url(Image/Devprayag.cms); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: cnt4 1.1s ease-out forwards;
+}
+.iconL{
+    height: 274px;
+    width: 50%;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #fff;
+    animation: cnt4 1.1s ease-out forwards;
+}
+.iconL h1{
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.footer1{
+    height: 40vh;
+    width: 100%;
+    background-color: #2e2e2e;
+}
+.footer1 h1,a{
+    height: 80px;
+    width: 100%;
+    font-size: 35px;
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: none;
+    animation: cnt2 1.1s ease-out forwards;
+}
+.icons1{
+    height: 100px;
+    margin-top: 80px;
+    text-align: center;
+}
+.icons1 a{
+    margin: 10px;
+    text-decoration: none;
+    color: #F8F8FF;
+    font-size: 20px;
+}
+.icons1 a:hover{
+    color: #0967f5;
+}
+.prg8{
+    height: 40px;
+    width: 100%;
+    font-size: 22px;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    color: #F8F8FF;
+    text-align: center;
+    animation: cnt4 1.1s ease-out forwards;
+}
